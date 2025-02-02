@@ -5,6 +5,6 @@ int main()
     scanf("%f %f",&a,&b);
 
     mul = a*b;
-    printf("Product: %f",mul);
+    printf("Product: %.2f",mul);
     return 0;
 }
