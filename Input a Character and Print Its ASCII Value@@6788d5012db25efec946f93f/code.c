@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char ch = 'A';
+    char ch = 'z';
     scanf("%d",&ch);
     printf("ASCII Value: %d", ch,ch);
 
