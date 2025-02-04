@@ -1,10 +1,9 @@
 #include <stdio.h>
-int main()
-{
-    int ch;
-    scanf("%c",&ch);
-    printf("ASCII Value: %c",ch,ch);
+
+int main() {
+    char ch = 'A';
+
+    printf("ASCII Value: %d\n", ch, (int)ch);
 
     return 0;
-   
 }
