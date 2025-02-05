@@ -8,10 +8,10 @@ int main ()
         {
             printf("Equilateral");
     }    
-    else if (a==b || a==c || b==c){
-        printf("Isoceles");
+        else if (a==b || a==c || b==c){
+            printf("Isoceles");
     }
-    else {
-        printf("Scalene");
+        else {
+            printf("Scalene");
     }
 }
