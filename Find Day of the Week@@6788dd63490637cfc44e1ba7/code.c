@@ -33,5 +33,6 @@ int main()
     default:
         printf("Invalid");
         break;
-    }
+}
+}
     
