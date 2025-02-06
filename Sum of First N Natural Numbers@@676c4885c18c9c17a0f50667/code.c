@@ -1,10 +1,9 @@
 #include <stdio.h>
-int main()
-{
-  int i, sum;
-  for (i = 1; i <= 1000000; i++)
-{
-  sum +=i;
-}
-  printf("%d",sum);
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    int sum = n * (n + 1) / 2;
+    printf("%d\n", sum);
+    return 0;
 }
