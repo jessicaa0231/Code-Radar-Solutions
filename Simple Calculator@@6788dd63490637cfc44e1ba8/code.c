@@ -19,6 +19,7 @@ int main()
             
         if (b==0){
             printf("error");
+            break;
         }
         else {
             printf("%d",a/b);
