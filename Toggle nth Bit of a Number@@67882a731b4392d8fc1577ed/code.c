@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int getNthBit(int number, int n) {
-    return number & ^(1 <<n); 
+    return number  ^(1 <<n); 
 }
 
 int main() {
