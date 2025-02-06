@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &number);
     int result = number & (~(number - 1));
 
-    printf(" %d\n", result);
+    printf("%d", result);
 
     return 0;
 }
