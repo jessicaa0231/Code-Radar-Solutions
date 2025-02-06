@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &number);
 
     int result = lowestBit(number);
-    printf("%d", result);
+    printf("%d", number);
 
     return 0;
 }
