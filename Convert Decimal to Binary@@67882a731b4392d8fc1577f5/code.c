@@ -1,14 +1,19 @@
 #include <stdio.h>
+#include <string.h>
 #include <math.h>
 
 int main() {
-    char binary[33]; 
+    char binary[33];
     int decimal = 0;
     scanf("%s", binary);
-    for (int i = 0; binary[i] != '\0'; i++) {
-        decimal = decimal * 2 + (binary[i] - '0');
+    int length = strlen(binary);
+    for (int i = 0; i < length; i++) {
+      
+        if (binary[i] == '1') {
+            decimal += pow(2, length - 1 - i);
+        }
     }
-    printf(" %d", decimal);
+    printf(" %d\n", decimal);
 
     return 0;
 }
