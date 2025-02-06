@@ -1,16 +1,11 @@
 #include <stdio.h>
 
-int lowestBit(int number) {
-    return number & (~(number - 1));
-}
-
 int main() {
     int number;
-   
     scanf("%d", &number);
+    int result = number & (~(number - 1));
 
-    int result = lowestBit(number);
-    printf("%d", number);
+    printf(" %d\n", result);
 
     return 0;
 }
