@@ -3,13 +3,18 @@
 int main() {
     int number;
     scanf("%d", &number);
-    if (number ==0){
-        printf("0/n");
+    
+    // Check if number is 0
+    if (number == 0) {
+        printf("0\n");
         return 0;
     }
+    
+    // Calculate the lowest set bit
     int result = number & (~(number - 1));
 
-    printf("%d", result);
+    // Output the result
+    printf("%d\n", result);
 
     return 0;
 }
