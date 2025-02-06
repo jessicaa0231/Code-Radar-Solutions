@@ -6,7 +6,7 @@ int main() {
     while (number != 0 && (number >> 31) == 0) {
         count++;               
         number <<= 1;         
-
+    }
     printf("%d\n", count); 
     return 0;
 }
