@@ -2,8 +2,8 @@
 int main()
 {
 
-    char a;
-    switch(a)
+    char A;
+    switch(A)
     {
         case 'A':
             printf("Excellent");
