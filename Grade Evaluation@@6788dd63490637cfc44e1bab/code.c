@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-
-    char A,B,C,D,F;
-    switch(A,B,C,D,F)
+    char a;
+    scanf("%c",a);
+    switch(a)
     {
         case 'A':
             printf("Excellent");
