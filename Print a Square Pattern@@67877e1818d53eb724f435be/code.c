@@ -8,9 +8,8 @@ int main ()
             printf("*");
         }
         printf("\n");
-        return 0;
+   
     }
-    
-    
+    return 0;
     
 }
