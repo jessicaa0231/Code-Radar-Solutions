@@ -3,8 +3,8 @@
 int main()
 {
     char a[100];
-    scanf("%s",a);
-    printf("%zu",strlen(a));
+    fgets(a, sizeof(a), stdin);
+    printf("%lu",strlen(a));
     return 0;
 
 }
