@@ -4,7 +4,7 @@ int main()
 {
     char a[100];
     scanf("%s",a);
-    printf("%lu",strlen(a));
+    printf("%zu",strlen(a));
     return 0;
 
 }
