@@ -1,9 +1,9 @@
-#include  <stdio.h>
+#include <stdio.h>
 #include <string.h>
 int main()
 {
     char a[100];
-    scanf("%s",&a);
+    scanf("%s ",&a);
     printf("%lu",strlen(a));
     return 0;
 
